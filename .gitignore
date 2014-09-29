@@ -1,0 +1,6 @@
+# ignore these javac generated files
+*.class
+
+# ignore these vi-related files
+*.swp
+*.swo
