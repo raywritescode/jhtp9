@@ -1,5 +1,5 @@
 // Fig. 2.3: Welcome2.java
-// Printing aline of text with multiple statements
+// Printing a line of text with multiple statements
 // Page 44
 //
 // Ray Santos
