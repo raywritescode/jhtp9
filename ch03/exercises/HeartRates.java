@@ -4,7 +4,7 @@
 // Exercise 3.16
 //
 // Ray Santos
-// October 2, 2014
+// October 3, 2014
 
 public class HeartRates
 {
