@@ -10,14 +10,10 @@ public class HeartRates
 {
    private String firstName;
    private String lastName;
-   private int age; // decided to prompt for age instead of calculating it.
-   // private int birthMonth;
-   // private int birthDay;
-   // private int birthYear;
+   private int age; 
 
    // Constructor
    public HeartRates( String first, String last, int currentAge )
-   // public HeartRates( String first, String last, int month, int day, int year )
    {
       firstName = first;
       lastName = last;
@@ -55,23 +51,6 @@ public class HeartRates
       age = currentAge;
    }
 
-/*
-   public void setBirthMonth( int month )
-   {
-      birthMonth = month;
-   }
-
-   public void setBirthDay( int day )
-   {
-      birthDay = day;
-   }
-
-   public void setBirthYear( int year )
-   {
-      birthYear = year;
-   }
-*/
-
    // Getters
    public String getFirstName()
    {
@@ -87,21 +66,4 @@ public class HeartRates
    {
       return age;
    }
-
-/*
-   public int getBirthMonth()
-   {
-      return birthMonth;
-   }
-
-   public int getBirthDay()
-   {
-      return birthDay;
-   }
-
-   public int getBirthYear()
-   {
-      return birthYear;
-   }
-*/
 }
