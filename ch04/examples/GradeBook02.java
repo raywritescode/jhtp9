@@ -31,7 +31,7 @@ public class GradeBook02
 
    public void displayMessage()
    {
-      System.out.printf( "\nWelcome to the grade book for\n%s!\n\n,
+      System.out.printf( "\nWelcome to the grade book for\n%s!\n\n",
          getCourseName() );
    }
 
