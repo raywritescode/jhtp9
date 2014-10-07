@@ -7,7 +7,7 @@
 // October 6, 2014
 
 import java.awt.Graphics;
-import java.swing.JPanel;
+import javax.swing.JPanel;
 
 public class DrawPanel extends JPanel
 {
