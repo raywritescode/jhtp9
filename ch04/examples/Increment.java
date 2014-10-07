@@ -20,6 +20,7 @@ public class Increment
 
       System.out.println();
 
+      // demonstrate prefix increment operator
       c = 5;
       System.out.println( c );   // prints 5
       System.out.println( ++c ); // preincrements then prints 6
