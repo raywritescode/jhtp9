@@ -49,9 +49,9 @@ public class GradeBook
       int grade;
 
       System.out.printf( "%s\n%s\n   %s\n   %s\n",
-         "Enter the integeger grades in the range 0-100.",
+         "Enter the integer grades in the range 0-100.",
          "Type the end-of-file indicator to terminate input:",
-         "On UNIX/Linux.Mac OS X type <Ctrl> d then press Enter",
+         "On UNIX/Linux/Mac OS X type <Ctrl> d then press Enter",
          "On Windows type <Ctrl> z then press Enter" );
 
 
