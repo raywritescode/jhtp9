@@ -21,6 +21,13 @@ public class GradeBookTest
 
 /* Code execution
 
+Welcome to the grade book for 
+CS101 Introduction to Java Programming!
+
+Enter the integer grades in the range 0-100.
+Type the end-of-file indicator to terminate input:
+   On UNIX/Linux/Mac OS X type <Ctrl> d then press Enter
+   On Windows type <Ctrl> z then press Enter
 99
 92
 45
