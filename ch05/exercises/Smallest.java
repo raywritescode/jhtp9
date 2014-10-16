@@ -14,40 +14,61 @@ import java.util.Scanner;
 
 public class Smallest
 {
-   private int values; // Initialize values to zero (as integer)
-   private int number; // Initialize number to zero (as integer)
-   private int smallest; // Initialize smallest to zero (as integer)
+   private int values; 
+   private int number; 
+   private int smallest; 
 
    public void inputValues()
    {
-      // Prompt the user for number of values
       System.out.print( "Enter the number of integer values to compare: " );
 
-      // Input the values
       Scanner input = new Scanner( System.in );
       values = input.nextInt();
 
-      // For the number of values
       for ( int i = 1; i <= values; i++ )
       {
-         // Prompt the user for a number
          System.out.printf( "Enter an integer for value %d: ", i ); 
-         // Input the number
          number = input.nextInt();
 
-         // If the number is the first input
          if ( i == 1 )
-            smallest = number; // assign number to smaller
+            smallest = number; 
          else
-            // If the number is less than smaller
             if ( number < smallest )
-               smallest = number; // assign number to smaller
+               smallest = number; 
       }
    }
 
-   // Print the smallest number
    public void displaySmallest()
    {
       System.out.printf( "\nThe smallest integer is %d\n\n", smallest );
    }
 }
+
+/* Code execution
+
+Enter the number of integer values to compare: 5
+Enter an integer for value 1: 3
+Enter an integer for value 2: 5
+Enter an integer for value 3: 7
+Enter an integer for value 4: 6
+Enter an integer for value 5: 2
+
+The smallest integer is 2
+
+Enter the number of integer values to compare: 4
+Enter an integer for value 1: 0
+Enter an integer for value 2: 1
+Enter an integer for value 3: 2
+Enter an integer for value 4: 3
+
+The smallest integer is 0
+
+Enter the number of integer values to compare: 4
+Enter an integer for value 1: 5
+Enter an integer for value 2: 4
+Enter an integer for value 3: 0
+Enter an integer for value 4: 1
+
+The smallest integer is 0
+
+*/
