@@ -1,5 +1,5 @@
 // Fig. 6.3: MaximumFinder.java
-// Programmer-delcared method maximum with three double parameters
+// Programmer-declared method maximum with three double parameters
 //
 // Java How to Program, 9th Ed. (Deitel) Page 202
 //
