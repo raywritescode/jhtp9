@@ -76,3 +76,43 @@ public class Craps
       return sum;
    }
 }
+
+/* Code execution runs
+
+Player rolled 6 + 5 = 11
+Player wins
+
+Player rolled 1 + 2 = 3
+Player loses
+
+Player rolled 4 + 4 = 8
+Point is 8
+Player rolled 3 + 3 = 6
+Player rolled 6 + 2 = 8
+Player wins
+
+Player rolled 2 + 2 = 4
+Point is 4
+Player rolled 4 + 2 = 6
+Player rolled 4 + 4 = 8
+Player rolled 5 + 4 = 9
+Player rolled 2 + 1 = 3
+Player rolled 1 + 4 = 5
+Player rolled 4 + 5 = 9
+Player rolled 5 + 4 = 9
+Player rolled 2 + 6 = 8
+Player rolled 3 + 2 = 5
+Player rolled 5 + 1 = 6
+Player rolled 6 + 4 = 10
+Player rolled 5 + 1 = 6
+Player rolled 2 + 1 = 3
+Player rolled 1 + 5 = 6
+Player rolled 4 + 5 = 9
+Player rolled 4 + 6 = 10
+Player rolled 5 + 3 = 8
+Player rolled 2 + 3 = 5
+Player rolled 2 + 1 = 3
+Player rolled 3 + 1 = 4
+Player wins
+
+*/
