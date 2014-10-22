@@ -26,11 +26,11 @@ public class DrawSmiley extends JPanel
       g.fillOval( 135, 65, 30, 30 );
 
       // draw the mouth
-      g.fillOval( 50, 110, 120, 60 );
+      g.fillOval( 50, 110, 120, 60 ); // mouth is a black oval
 
       // "touch up" the mouth into a smile
       g.setColor( Color.YELLOW );
-      g.fillRect( 50,110, 120, 30 );
-      g.fillOval( 50, 120, 120, 40 );
+      g.fillRect( 50,110, 120, 30 ); // makes the top half of mouth yellow to match face
+      g.fillOval( 50, 120, 120, 40 ); // draws a smaller yellow oval over mouth to make the smile
    }
 }
