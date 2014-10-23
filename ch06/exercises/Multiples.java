@@ -19,10 +19,10 @@ public class Multiples
    // Find the remainder of the second integer divided by the first integer.
    public boolean isMultiple( int firstInt, int secondInt )
    {
-      if ( secondInt % firstInt == 0 ) // If the remainder is zero
-         return true; // It is a multiple. Return true.
-      else // Otherwise
-         return false; //It is not a multiple. Return false
+      if ( secondInt % firstInt == 0 ) 
+         return true; 
+      else 
+         return false; 
    }
 }
 
@@ -32,8 +32,5 @@ First   Second    Calculation    Remainder   Return Value
 -----   ------    -----------    ---------   ------------
   3        7         7 % 3           1          false
   3        6         6 % 3           0          true
-  3       -6        -6 % 3           0          true
- -3        6        -3 % 6           3          false
-  0        2         2 % 0          undef       crash app?
 
 */ 
