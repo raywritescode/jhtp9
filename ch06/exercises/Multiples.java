@@ -13,16 +13,18 @@
 // Ray Santos
 // October 22, 2014
 
-/* Pseudocode
+public class Multiples
+{
 
-Find the remainder of the second integer divided by the first integer.
-
-If the remainder is zero
-   It is a multiple. Return true.
-Otherwise
-   It is not a multiple. Return false
-
-*/
+   // Find the remainder of the second integer divided by the first integer.
+   public boolean isMultiple( int firstInt, int secondInt )
+   {
+      if ( secondInt % firstInt = 0 ) // If the remainder is zero
+         return true; // It is a multiple. Return true.
+      else // Otherwise
+         return false; //It is not a multiple. Return false
+   }
+}
 
 /* Sample numbers
 
