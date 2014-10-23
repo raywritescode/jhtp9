@@ -41,3 +41,32 @@ public class MultiplesTest
       }     
    }
 }
+
+/* Code Execution
+
+This program determines, for a pair of integers, whether
+the second integer is a multiple of the first.
+
+Enter number of number-pairs to test: 5
+
+Enter first integer: 2
+Enter second integer: 3
+3 is NOT a multiple of 2
+
+Enter first integer: 5
+Enter second integer: 100
+100 is a multiple of 5
+
+Enter first integer: 4
+Enter second integer: 72
+72 is a multiple of 4
+
+Enter first integer: 7   
+Enter second integer: 72
+72 is NOT a multiple of 7
+
+Enter first integer: 8
+Enter second integer: 9
+9 is NOT a multiple of 8
+
+*/
