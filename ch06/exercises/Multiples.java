@@ -15,8 +15,6 @@
 
 public class Multiples
 {
-
-   // Find the remainder of the second integer divided by the first integer.
    public boolean isMultiple( int firstInt, int secondInt )
    {
       if ( secondInt % firstInt == 0 ) 
