@@ -37,6 +37,8 @@ public class GradeBook
    {
       outputGrades();
 
+      System.out.printf( "\nClass average is %.2f\n", getAverage() );
+
       System.out.printf( "Lowest grade is %d\nHighest grade is %d\n\n",
          getMinimum(), getMaximum() );
    
