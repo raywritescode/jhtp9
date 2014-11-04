@@ -113,6 +113,8 @@ public class GradeBook2dArray
          // print bar of asterisks
          for ( int stars = 0; stars < frequency[ count ]; stars++ )
             System.out.print( "*" );
+
+         System.out.println();
       }
    }
 
