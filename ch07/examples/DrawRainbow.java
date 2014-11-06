@@ -10,7 +10,7 @@ import java.awt.Color;
 import java.awt.Graphics;
 import javax.swing.JPanel;
 
-public class DrawRainbow
+public class DrawRainbow extends JPanel
 {
    private final static Color VIOLET = new Color( 128, 0, 128 );
    private final static Color INDIGO = new Color( 75, 0, 130 );
@@ -18,7 +18,7 @@ public class DrawRainbow
    // colors to us in the rainbow, starting from the innermost.
    // The two white entries result in an empty arc in the center.
    private Color[] colors =
-      { Color.WHITE, Color.WHITE, VIOLET, INDOGO, Color.BLUE,
+      { Color.WHITE, Color.WHITE, VIOLET, INDIGO, Color.BLUE,
         Color.GREEN, Color.YELLOW, Color.ORANGE, Color.RED };
 
    public DrawRainbow()
@@ -31,7 +31,7 @@ public class DrawRainbow
    {
       super.paintComponent( g );
 
-      int radius = 20; arc radius
+      int radius = 20; 
 
       // draw the rainbow near the bottom-center
       int centerX = getWidth() / 2;
