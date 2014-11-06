@@ -15,7 +15,7 @@ public class DrawRainbow extends JPanel
    private final static Color VIOLET = new Color( 128, 0, 128 );
    private final static Color INDIGO = new Color( 75, 0, 130 );
 
-   // colors to us in the rainbow, starting from the innermost.
+   // colors to use in the rainbow, starting from the innermost.
    // The two white entries result in an empty arc in the center.
    private Color[] colors =
       { Color.WHITE, Color.WHITE, VIOLET, INDIGO, Color.BLUE,
@@ -27,7 +27,7 @@ public class DrawRainbow extends JPanel
    }
 
    // draws rainbow using concentric arcs
-   public void paintComponents( Graphics g )
+   public void paintComponent( Graphics g )
    {
       super.paintComponent( g );
 
