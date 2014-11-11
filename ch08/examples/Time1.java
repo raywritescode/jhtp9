@@ -29,7 +29,7 @@ public class Time1
 
    public String toUniversalString()
    {
-      return String.format( "02d:%02d:%02d", hour, minute, second );
+      return String.format( "%02d:%02d:%02d", hour, minute, second );
    }
 
    public String toString()
