@@ -39,3 +39,20 @@ public class Time1
          minute, second, ( hour < 12 ? "AM" : "PM" ) );
    }
 }
+
+/* Code execution
+
+$ java Time1Test
+The initial universal time is: 00:00:00
+The initial standard time is: 12:00:00 AM
+
+Universal time after setTime is: 13:27:06
+Standard time after setTime is: 1:27:06 PM
+
+Exception: hour, minute, and/or second was out of range
+
+After attempting invalid settings:
+Universal time: 13:27:06
+Standard time: 1:27:06 PM
+
+*/
