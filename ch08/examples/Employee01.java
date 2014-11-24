@@ -19,7 +19,7 @@ public class Employee01
       lastName = last;
 
       ++count;
-      System.out.printf( "Employee constructor: %s %s; count = %d\n",
+      System.out.printf( "Employee01 constructor: %s %s; count = %d\n",
          firstName, lastName, count );
    }
 
