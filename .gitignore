@@ -4,5 +4,7 @@
 # ignore these vi-related files
 *.swp
 *.swo
+
+# ignore these netbeans generated folders and files
 /ch31/NetBeansProjects/WelcomeSOAP/nbproject/private/
 /ch31/NetBeansProjects/WelcomeSOAP/build/
