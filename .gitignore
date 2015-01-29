@@ -8,3 +8,6 @@
 # ignore these netbeans generated folders and files
 /ch31/NetBeansProjects/WelcomeSOAP/nbproject/private/
 /ch31/NetBeansProjects/WelcomeSOAP/build/
+/ch31/NetBeansProjects/WelcomeSOAPClient/nbproject/private/
+/ch31/NetBeansProjects/WelcomeSOAPClient/build/
+/ch31/NetBeansProjects/WelcomeSOAPClient/dist/
