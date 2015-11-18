@@ -30,7 +30,7 @@ public class BmiCalc
       System.out.println( "Overweight:  between 25 and 29.9" );
       System.out.println( "Obese:       30 or greater" );
 
-      System.out.printf( "\nYour BMI is %.2f\n", bmi );
+      System.out.printf( "\nYour BMI is %.1f\n", bmi );
    }
 }
 
@@ -46,7 +46,7 @@ Normal:      between 18.5 and 24.9
 Overweight:  between 25 and 29.9
 Obese:       30 or greater
 
-Your BMI is 24.86
+Your BMI is 24.9
 
 */
 
