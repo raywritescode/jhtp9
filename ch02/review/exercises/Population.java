@@ -25,7 +25,6 @@
       The next year will use the previous year's calculated population as its
       current world population value.
 
-
    How I envision the working program (Note: calculations done manually with a calculator):
 
       Enter the current world population (exclude commas): 7381153122
